@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Procurando a minha mãe desaparecida!</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia desses, eu estava lendo um dos livros em que a minha mãe escreveu antes das autoridadas constatarem que ela estava desaparecida, em uma pagina tinha um papel falando que se eu estivesse com saudade dela, era para eu seguir as dicas que ela espalhou pela cidade!</p>
+            <button class="btn-proximo" data-proximo="1">procurar no nosso lugar favorito</button>
+            <button class="btn-proximo" data-proximo="2">procurar pela casa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Quando cheguei no nosso parque favorito, avistei um papel em cima de uma árvore dizendo que era para eu ir para a minha escola.</p>
+            <button class="btn-proximo" data-proximo="3">procurar na escola</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p> ao revirar a casa eu encontro uma dica falando que era para eu ir para a minha escola</p>
+            <button class="btn-proximo" data-proximo="3">ir para a escola</button>
+            <button class="btn-proximo" data-proximo="4">desistir e ficar em casa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>chegando na escola voce entra na sua antiga sala e encontra outra dica colada em baixo da sua carteira, essa dica estava dizendo que era para eu ir parao hospital onde eu nasci</p>
+            <button class="btn-proximo" data-proximo="7">ir para hospital</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casaa.webp" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta se realmente iria encontrar a sua mãe.</p>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>chegando no hospital o médico que fez o seu parto te fala onde a minha mãe esta.</p>
+            <button class="btn-proximo" data-proximo="11">ir ao local</button>
+            <button class="btn-proximo" data-proximo="4">voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro de cidade perdida, eu encontro a minha mãe e fico vivendo com ela muito feliz.</p>
+        </div>
+
+    
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
